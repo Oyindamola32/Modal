@@ -25,5 +25,5 @@ overlay.addEventListener('click', closeModal);
 
 document.addEventListener('keydown', function (e) {
   //console.log('A key was pressed');
-  console.log(e);
+  console.log(e.key);
 });
